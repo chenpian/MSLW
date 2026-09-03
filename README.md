@@ -53,7 +53,7 @@ pip install modelscope
 
 modelscope download \
   --model "AI-ModelScope/stable-diffusion-v1-4" \
-  --include "*.bin" \
+  --exclude "*.bin" \
   --local_dir "/path/to/stable-diffusion-v1-4"
 
 modelscope download \
